@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body{
+    background-color: #d9ead3;
+    font-family: 'Nerko One', cursive;
+
+}
+
+h1{
+    color: #6f584b;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+form{
+    margin:0px;
+}
+
+.form-div{
+    display:flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    border: 0.8em #9a94bc double;
+    border-radius: 30px;
+    height: fit-content;
+    padding: 1em 2em 2em 2em;
+}
+
+legend{
+    font-size: xx-large;
+    color: #6f584b;
+}
+
+label{
+    font-size: x-large;
+    color: #6f584b;
+    margin-bottom: 0.2em;
+}
+
+input{
+    border: 3px solid #9a94bc;
+    border-radius: 15px;
+    padding: 7px 14px;
+    background-color: rgb(245 245 245 / 58%);
+}
+
+input[placeholder]{
+    color: #6f584b;
+    font-size: 20px;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background: rgb(245 245 245 / 58%);
+    width: 80%;
+}
+
+textarea{
+    border: 3px solid #9a94bc;
+    border-radius: 15px;
+    padding: 7px 14px;
+    background-color: rgb(245 245 245 / 58%);
+    color: #6f584b;
+    font-size: 20px;
+}
+
+.div-salaire{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.DFbottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.bottom_F{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1em 2em;
+}
+
+.bottom_F > input[type="checkbox"]{
+    margin-right: 1em;
+}
+
+.bottom_F > label{
+    margin-right:1em;
+}
+
+.bottom_F > label > a{
+    color: #9a94bc;
+    text-decoration: none;
+}
+
+button{
+    font-size: x-large;
+    background-color: #9a94bc;
+    border: 0.2em solid rgb(245 245 245 / 58%);
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-weight: 700;
+}

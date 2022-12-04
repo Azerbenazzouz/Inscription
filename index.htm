@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form action="" method="post">
+        <div class="form-div">
+
+            <fieldset>
+                <legend>Details du compte</legend>
+    
+                <label for="name">Nom de l'utilisateur</label>
+                <input type="text" name="name" id="name" placeholder="Username" required>
+    
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp" id="mdp" placeholder="Password" required>
+    
+                <label for="cmdp">Confirmations de mot de passe</label>
+                <input type="password" name="cmdp" id="cmdp" placeholder="Re-type password" required>
+    
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="examples@email.com" required>
+            
+            </fieldset>
+    
+            <fieldset>
+                <legend>Details Personels</legend>
+    
+                <label for="site">Site web :</label>
+                <input type="url" name="site" id="site" placeholder="https://www.example.com" required>
+    
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Age > 18" required>
+    
+                <label for="salaire">Salaire Mensuel</label>
+                <div class="div-salaire"><input type="range" name="salaire" id="salaire">
+                    <label for="salaire">1000</label></div>
+    
+                <label for="dsc">Description :</label>
+                <textarea name="dsc" id="dsc" cols="30" rows="10" placeholder="Description"></textarea>
+    
+            </fieldset>
+
+        </div>
+        
+
+        <div class="DFbottom">
+            <fieldset class="bottom_F">
+
+                <input type="checkbox" name="condition" id="condition">
+                <label for="condition">j'accept les <a href="">Conditions Generales d'Utilisation </a>.</label>
+    
+                <button type="submit">J'accepte</button>
+    
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
