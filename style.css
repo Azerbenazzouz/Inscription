@@ -3,6 +3,7 @@
 body{
     background-color: #d9ead3;
     font-family: 'Nerko One', cursive;
+    background-image: url("./patterm.png");
 
 }
 
@@ -29,6 +30,7 @@ fieldset{
     border-radius: 30px;
     height: fit-content;
     padding: 1em 2em 2em 2em;
+    background-color: #d9ead39e;
 }
 
 legend{
